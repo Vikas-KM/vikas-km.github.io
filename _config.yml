@@ -2,7 +2,7 @@ title: Vikas KM
 description: Personal Tech Blog
 
 url: vikas-km.github.io
-baseurl: "/long-haul"
+baseurl:
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 

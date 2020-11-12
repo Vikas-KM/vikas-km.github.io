@@ -1,5 +1,5 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Vikas KM
+description: Personal Tech Blog
 
 url: http://brianmaierjr.github.com/long-haul
 baseurl: "/long-haul"
@@ -23,13 +23,10 @@ navigation:
     url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+  github: vikas-km
+  email: vikki.km@gmail.com
+  linkedin: vikaskm
 
-google_analytics: "UA-58263416-1"
-
+google_analytics: 
 disqus:
-    shortname: brianmaierjr
+    shortname: vikaskm

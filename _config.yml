@@ -1,5 +1,5 @@
 title: Vikas KM
-description: Personal Tech Blog
+description: Personal Blog
 
 url: vikas-km.github.io
 baseurl:
@@ -27,6 +27,5 @@ social:
   email: vikki.km@gmail.com
   linkedin: vikaskm
 
-google_analytics: 
-disqus:
-    shortname: vikaskm
+google_analytics:
+disqus: shortname:vikaskm

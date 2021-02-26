@@ -28,4 +28,5 @@ social:
   linkedin: vikaskm
 
 google_analytics:
-disqus: shortname:vikaskm
+disqus:
+  shortname: vikaskm

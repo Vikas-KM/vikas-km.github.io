@@ -27,7 +27,4 @@ title: About Me
 	<h4>Movie Recommender System</h4>
 	<p>Content based movie recommender was implemented using the cosine similarity. The app is hosted on <strong>heroku</strong> and the frontend was implemented in Flask.<br>
 	<a href='https://github.com/Vikas-KM/movie-recommender-system'>Movie Recommender System Source Code</a></p>
-	<h4>Sarcasm Detector</h4>
-	<p>Using the tensorflow2.0 and LSTMs implemented sarcasm detector.<br><a href='https://github.com/Vikas-KM/sarcasm-detector'>Sarcasm Detector Source Code</a></p>
-
 </div>

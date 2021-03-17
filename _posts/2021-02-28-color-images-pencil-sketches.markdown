@@ -5,10 +5,12 @@ date: 2021-02-28
 ---
 
 <p class="intro"><span class="dropcap">I</span>n this post we will implement a small opencv function to convert color images into black and white pencil sketches.</p>
+
 In order to obtain the pencil sketches of the images, we will use two image-blending techniques called <strong>Dodging</strong> and <strong>Burning</strong>.
-* Dodging
-lightens the image by decreasing the exposure of the image to light.
-* Burning
+
+- Dodging
+  lightens the image by decreasing the exposure of the image to light.
+- Burning
 darkens the image by increasing the exposure of the image to light.
 In Image processing to obtain dodging and burning we use mask, Mask is an array of same dimesions as image. Assume Mask as a paper with hole and control exposure for a specific portion of an image by letting the light as depicted below in the figure.
 <figure>

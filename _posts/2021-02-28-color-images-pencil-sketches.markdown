@@ -12,7 +12,7 @@ date: 2021-02-28
 <p>darkens the image by increasing the exposure of the image to light.</p>
 <p>In Image processing to obtain dodging and burning we use mask, Mask is an array of same dimesions as image. Assume Mask as a paper with hole and control exposure for a specific portion of an image by letting the light as depicted below in the figure.</p>
 <figure>
-	<img src="{{ '/assets/img/dodge-burn.jpg' | prepend: site.baseurl }}" alt=""> 
+	<img src="{{ '/assets/img/opencv-sketch/dodge-burn.jpg' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Fig1. - Dodging and Burning</figcaption>
 </figure>
 If you search on the Internet, you might stumble upon the following common procedure to achieve a pencil sketch from an RGB color image:
@@ -76,11 +76,11 @@ cv2.destroyAllWindows()
 {%- endhighlight -%}
 
 <figure>
-	<img src="{{ '/assets/img/portrait.jpg' | prepend: site.baseurl }}" alt=""> 
+	<img src="{{ '/assets/img/opencv-sketch/portrait.jpg' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Fig2. - Original Image</figcaption>
 </figure>
 <figure>
-<img src="{{ '/assets/img/pencil_sketch.jpg' | prepend: site.baseurl }}" alt=""> 
+<img src="{{ '/assets/img/opencv-sketch/pencil_sketch.jpg' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Fig2. - Pencil Sketch</figcaption>
 </figure>
 

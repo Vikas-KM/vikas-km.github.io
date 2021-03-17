@@ -5,12 +5,12 @@ date: 2021-02-28
 ---
 
 <p class="intro"><span class="dropcap">I</span>n this post we will implement a small opencv function to convert color images into black and white pencil sketches.</p>
-<p>In order to obtain the pencil sketches of the images, we will use two image-blending techniques called <strong>Dodging</strong> and <strong>Burning</strong>.</p>
+In order to obtain the pencil sketches of the images, we will use two image-blending techniques called <strong>Dodging</strong> and <strong>Burning</strong>.
 * Dodging
-<p>lightens the image by decreasing the exposure of the image to light.</p>
+lightens the image by decreasing the exposure of the image to light.
 * Burning
-<p>darkens the image by increasing the exposure of the image to light.</p>
-<p>In Image processing to obtain dodging and burning we use mask, Mask is an array of same dimesions as image. Assume Mask as a paper with hole and control exposure for a specific portion of an image by letting the light as depicted below in the figure.</p>
+darkens the image by increasing the exposure of the image to light.
+In Image processing to obtain dodging and burning we use mask, Mask is an array of same dimesions as image. Assume Mask as a paper with hole and control exposure for a specific portion of an image by letting the light as depicted below in the figure.
 <figure>
 	<img src="{{ '/assets/img/opencv-sketch/dodge-burn.jpg' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Fig1. - Dodging and Burning</figcaption>
@@ -83,6 +83,8 @@ cv2.destroyAllWindows()
 <img src="{{ '/assets/img/opencv-sketch/pencil_sketch.jpg' | prepend: site.baseurl }}" alt=""> 
 	<figcaption>Fig2. - Pencil Sketch</figcaption>
 </figure>
+
+#### Source Code
 
 Check out the full [Source Code][github]
 

@@ -167,6 +167,10 @@ In this problem we have used a simple 4 layer model to come up with a prediction
 
 Use the [telco dataset][kaggle_telco] and see if you can use the same model to predict if a customer will leave their telecom network or not.
 
+#### Source Code
+
+Checkout the full [Source Code][source_url] of the above project.
+
 ### References
 
 - [Artificial Neural Network using Tensorflow 2][book_url] Book.
@@ -177,3 +181,4 @@ Use the [telco dataset][kaggle_telco] and see if you can use the same model to p
 [kaggle_telco]: https://www.kaggle.com/c/customer-churn-prediction-2020
 [book_url]: https://www.apress.com/in/book/9781484261491
 [tensorflow_url]: https://www.tensorflow.org/tutorials
+[source_url]: https://github.com/Vikas-KM/tensorflow-learning/blob/master/binary_classification.ipynb

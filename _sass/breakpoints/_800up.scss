@@ -276,10 +276,10 @@ CONTACT PAGE STYLING
 DARK THEME STYLING
 ***************/
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 	body {
-		background-color: black;
-		color: white;
+		background-color: white;
+		color: black;
 	}
 
 	.content:after,

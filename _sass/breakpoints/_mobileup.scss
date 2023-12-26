@@ -500,22 +500,22 @@ POST LIST STYLING
 DARK THEME STYLING
 ***************/
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 	body {
-		background-color: $black;
-		color: white;
+		background-color: $white;
+		color: black;
 	}
 
 	.posts article .date {
-		color: white;
+		color: black;
 	}
 
 	.postNav {
-		border-top: 1px solid lighten(black, 10%);
-		border-bottom: 1px solid lighten(black, 10%);
+		border-top: 1px solid lighten(white, 10%);
+		border-bottom: 1px solid lighten(white, 10%);
 	}
 
 	.footer .container {
-		border-top-color: lighten(black, 10%);
+		border-top-color: lighten(white, 10%);
 	}
 }

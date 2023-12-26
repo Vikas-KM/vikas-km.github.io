@@ -9,6 +9,9 @@ permalink: blog/:title/
 # Header Option
 # header: large
 
+sass:
+    style: compressed
+
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]

@@ -22,7 +22,7 @@ navigation:
     url: /index.html
   - title: Articles
     url: /articles
-  - title: About
+  - title: Resume
     url: /about
   - title: Contact
     url: /contact

@@ -21,7 +21,7 @@ tr {
 	&:nth-child(even) {
 		background-color: lighten($grey, 30%);
 
-		@media (prefers-color-scheme: dark) {
+		@media (prefers-color-scheme: light) {
 			background-color: lighten(black, 10%);
 		}
 	}
